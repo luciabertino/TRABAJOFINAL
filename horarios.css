@@ -1,0 +1,20 @@
+.negrita {
+    font-weight: 800;
+    font-size: larger;
+}
+.negrita{
+    color:rgba(155, 128, 81, 0.867)
+}
+.cursiva {
+    font-style: italic;
+    font-size:medium
+
+}
+.cursiva {
+    color: rgb(183, 159, 117)
+
+}
+.horarios{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  rgb(123, 106, 76);
+}
