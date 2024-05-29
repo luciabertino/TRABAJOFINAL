@@ -2,40 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= <h1 class="horarios">Horarios de Trabajo</h1>
-    <table border="3" bgcolor="beige">
-        <tr>
-            <td class="negrita"> Dias</td>
-            <td class="cursiva">Horarios</td>
-        </tr>
-        <tr>
-            <td class="negrita">Lunes</td>
-            <td rowspan="2" class="cursiva">08:00 a 17:00</td>
-        </tr>
-        <tr>
-            <td class="negrita">Martes</td>
-        </tr>
-        <tr>
-            <td class="negrita">Jueves</td>
-            <td rowspan="2" class="cursiva">12:00 a 19:00 </td>
-        </tr>
-        <tr>
-            <td class="negrita">Viernes</td>
-        </tr>
-        <tr>
-            <td class="negrita">Sabado</td>
-            <td rowspan="2" class="cursiva">7:30 a 14:00</td>
-        </tr>
-        <tr>
-            <td class="negrita">Domingo</td>
-        </tr>
-
-
-    </table>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YummiYummi</title>
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <style>
+        table,th,td{
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
+
+    <h1 class="contactos">Conctactos y Horario de Atencion</h1>
+    <h2  class="contactos"> “Hola, nosotros somos yummi bienvenido/a,para mantenerse en contacto con nostros para preguntar algunas cosas o demas, complete el formulario para poder despues comunicarnos con usted,tendremos igualemnte el instagram o WhatsApp por si tambien quiere mandar algun mensaje ahi.
+        Tendran tambien los horarios disponibles para escribirnos y despues contestarle en ese horario. Muchas Gracias! </h2>
     
+<div class="horario">
+
+    
+    <form method="" action="">
+        Nombre:<input type="text" name="Nombre">
+        <br>
+        Apellido:<input type="text" name="Apellido">
+        <br>
+        Indique sexo:<br>
+        Masculino:<input type="radio" name="sexo">
+        Femenino:<input type="radio" name="sexo">
+        Otro:<input type="radio" name="sexo">
+        <br>
+        Selecciona el pais
+        <select id="pais" name="pais">
+            <option value="arg">Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="chi">Chile</option>
+            <option value="uru">Uruguay</option>
+        </select>
+        <br>
+        Indique que ropa le interesa a continuacion:<br>
+        <input type="checkbox" name="Zapatos">Zapatos<br>
+        <input type="checkbox" name="Remeras">Remeras<br>
+        <input type="checkbox" name="Pantalones">Pantalones<br>
+        <input type="checkbox" name="Vestidos">Vestidos<br>
+        <input type="checkbox" name="Otros">Otros<br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="cancelar">
+
+
+
+    <table border="3" bgcolor="beige">
+    <tr>
+        <td class="negrita"> Dias</td>
+        <td class="cursiva">Horarios</td>
+    </tr>
+    <tr>
+        <td class="negrita">Lunes</td>
+        <td rowspan="2" class="cursiva">08:00 a 17:00</td>
+    </tr>
+    <tr>
+        <td class="negrita">Martes</td>
+    </tr>
+    <tr>
+        <td class="negrita">Jueves</td>
+        <td rowspan="2" class="cursiva">12:00 a 19:00 </td>
+    </tr>
+    <tr>
+        <td class="negrita">Viernes</td>
+    </tr>
+    <tr>
+        <td class="negrita">Sabado</td>
+        <td rowspan="2" class="cursiva">7:30 a 14:00</td>
+    </tr>
+    <tr>
+        <td class="negrita">Domingo</td>
+    </tr>
+
+
+</table>
+
+</div>
 </body>
 </html>

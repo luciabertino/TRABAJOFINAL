@@ -10,10 +10,30 @@ body{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.img-fluid{
+    width: 1500px;
+    height: 300px;
+}
+.presentacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.display-4{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
 
-.display-3{
+.ofertasgato{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+
 }
 footer {
        background-color: rgb(225, 176, 183);
@@ -58,4 +78,103 @@ gap: 20px;
         justify-content: space-between;
     }
 }
+}
+.gato{
+    width:400px;
+    height: 400px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+    /* //INFORMACION// */
+.cajainfo{
+    margin: 0px;
+    padding: 0px;
+}
+.informacion{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    height: 150px;
+    background-color: pink;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav{
+    background-color: rgb(255, 207, 215);
+    height: 60px;
+}
+nav h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.informacion2{
+    width: 1000px;
+    height: 100;
+    background-color: rgb(255, 219, 225);
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.informacion2 h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+aside{
+    width: 3000px;
+    height: 800px;
+    background-color: rgb(255, 160, 176);
+    margin-top: 20px;
+    float: left;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+aside{
+    text-align:center;
+    margin-top:10px;
+    font-size: 40px;
+}
+/* ////contactos horarios///// */
+.contactos{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* //// */
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    background-color:pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: pink;
+}
+
+.whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
